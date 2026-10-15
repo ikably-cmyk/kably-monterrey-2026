@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Láser de diodo · primeros pasos · Dr. Isaac Kably</title>
+<link rel="stylesheet" href="../common.css">
+<style>
+.cards{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:8px}
+@media(max-width:640px){.cards{grid-template-columns:1fr}}
+.card{display:block;text-decoration:none;color:var(--ink);border:1px solid var(--line);border-radius:12px;padding:24px 22px;transition:.15s;background:#fff}
+.card:hover{border-color:var(--ink)}
+.card .k{font-size:13px;color:var(--mut);margin-bottom:8px}
+.card .t{font-size:24px;font-weight:600;line-height:1.15}
+.card .d{font-size:15px;color:var(--mut);margin-top:8px}
+.card .go{margin-top:16px;font-weight:600;color:var(--red)}
+.more{margin-top:26px;background:var(--band);border-radius:12px;padding:18px 20px;font-size:15px}
+.more a{font-weight:600;color:var(--red);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <div class="mark"><span class="tri"></span><span>Endo &amp; Laser</span></div>
+    <div class="lang"><button data-l="es" onclick="setLang('es')">ES</button><button data-l="en" onclick="setLang('en')">EN</button></div>
+  </div>
+  <div class="live">
+    <h1 data-es="Gracias por <b>poner atención</b>" data-en="Thank you for <b>paying attention</b>"></h1>
+    <div class="line"></div>
+    <p class="sub" data-es="Aquí está todo lo que necesitas de la plática «Láser de diodo · primeros pasos», para que no tuvieras que tomar fotos ni video." data-en="Everything you need from the lecture “Diode laser · first steps” is here, so you didn't have to take photos or video."></p>
+    <div class="cards">
+      <a class="card" href="bibliografia.html">
+        <div class="k" data-es="Referencias completas" data-en="Full references"></div>
+        <div class="t" data-es="Bibliografía" data-en="Bibliography"></div>
+        <div class="d" data-es="Todas las referencias de la plática, en orden y con liga a cada artículo." data-en="Every reference from the lecture, in order, with a link to each paper."></div>
+        <div class="go" data-es="Ver bibliografía →" data-en="View bibliography →"></div>
+      </a>
+      <a class="card" href="resumen-curso-diodo.pdf" target="_blank" rel="noopener">
+        <div class="k" data-es="PDF · 2 páginas" data-en="PDF · 2 pages (Spanish)"></div>
+        <div class="t" data-es="Resumen de la plática" data-en="Lecture summary"></div>
+        <div class="d" data-es="Las ideas principales, en lenguaje sencillo." data-en="The main ideas, in plain language."></div>
+        <div class="go" data-es="Abrir PDF →" data-en="Open PDF →"></div>
+      </a>
+    </div>
+    <div class="more" data-es="¿Dudas clínicas o quieres profundizar? Todo está en <a href='https://laserapp.ai' target='_blank' rel='noopener'>LaserRx · laserapp.ai</a>" data-en="Clinical questions or want to go deeper? It's all in <a href='https://laserapp.ai' target='_blank' rel='noopener'>LaserRx · laserapp.ai</a>"></div>
+    <div class="foot"><span><b>Dr. Isaac Kably M.</b>, DDS, MSc — Endo &amp; Laser</span><span data-es="Disponible hasta el 7 de noviembre de 2026" data-en="Available until November 7, 2026"></span></div>
+  </div>
+  <div class="gone">
+    <h1 data-es="Este material <b>ya no está disponible</b>" data-en="This material is <b>no longer available</b>"></h1>
+    <p class="sub" style="margin:0 auto" data-es="Para seguir aprendiendo, visita LaserRx Academy en <a href='https://laserapp.ai'>laserapp.ai</a>" data-en="To keep learning, visit LaserRx Academy at <a href='https://laserapp.ai'>laserapp.ai</a>"></p>
+  </div>
+</div>
+<script src="../common.js"></script>
+</body>
+</html>
